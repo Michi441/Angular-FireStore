@@ -2,10 +2,49 @@
 
 .container{
 
-  padding: 5px;
+
   margin-left: 150px;
   margin-right: 150px;
+
+}
+
+.post-title{
+  color: white;
+  padding-left: 25px;
+}
+
+.post-content{
+  padding-left: 25px;
+}
+
+.post {
+  padding: 5px;
   background-color: #202835;
   text-align: left;
-  margin-top: 1.5em;
+  margin-top: 3em;
+  list-style: none;
+}
+
+.title {
+  background-color: #202835;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.submit-btn{
+  width: 100%;
+  border: none;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  border: 2px solid #4CAF50;;
 }
